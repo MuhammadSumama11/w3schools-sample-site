@@ -73,7 +73,7 @@ a:active {
         }
 
         .body {
-            display: flex;
+            display: inline-block;
         }
         .box1 {
             width: 200px;
@@ -107,4 +107,5 @@ a:active {
         }
 
         
+
     /* </style> */
