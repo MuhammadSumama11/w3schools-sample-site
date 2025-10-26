@@ -1,0 +1,110 @@
+
+
+/* <style> */
+        
+        header {
+            width: 100%;
+        }
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(43, 72, 73);
+        }
+        .nav1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* background-color: rgb(43, 72, 73); */
+            color: white;
+            width: 100%;
+            
+        }
+
+        #search {
+            /* border: none;
+            border-radius: 5%; */
+            padding: 10px;
+width: 150px;
+border: 1px solid #c8ccd0;
+border-radius: 5px;
+
+        }
+        #search:focus {
+outline: none;
+box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+width: 100px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:link {
+            color: white;
+        }
+        a#a1:hover {
+  
+  background-color: rgb(107, 179, 0);
+  border: 100px;
+  padding: 20px;
+}
+        a#a2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(206, 207, 204);
+  border: 100px;
+  border-radius: 70px;
+  padding: 10px;
+}
+a:active {
+    color: rgb(0, 247, 255);
+}
+
+        .nav2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(30, 50, 51);
+            flex: auto;
+            padding: 1px;
+        }
+        .nav2>a:hover {
+            background-color: black;
+        }
+        .nav2>a:active {
+            color: cyan;
+        }
+
+        .body {
+            display: flex;
+        }
+        .box1 {
+            width: 200px;
+  border: none;
+  max-height: 150vh;
+  overflow: auto;
+        }
+        .box2 {
+            width: 80%;
+            padding: 20px;
+            text-align: justify;
+        }
+        h2 {
+            margin-bottom: 0px;
+        }
+        i {
+            color: rgb(170, 4, 170);
+        }
+        a#a2>code {
+            color: rgb(170, 4, 170);
+        }
+        a#more>i {
+            color: grey;
+        }
+        input {
+            width: 9%;
+        }
+
+        footer {
+            background-color: rgb(30, 50, 51);
+        }
+
+        
+    /* </style> */
